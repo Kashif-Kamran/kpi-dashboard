@@ -1,9 +1,107 @@
 * {
     padding: 0px;
     margin: 0px;
+    color: black;
 }
 
 header {
-    padding: 3% 5%;
-    background-color: cadetblue;
+
+    display: block;
+    padding: 2% 5%;
+    background-color: #2696b3;
+}
+
+body {
+    background-color: #e1e1e1;
+}
+
+/* Main Body */
+main {
+    padding: 2% 5%;
+}
+
+.projects-section {
+    display: flex;
+}
+
+.project-list-section {
+    width: 70vw;
+}
+
+.add-project-section {
+    padding: 2% 5%;
+    background-color: #7f838d;
+    width: 30vw;
+}
+
+.add-project-section h1 {
+    text-align: center;
+}
+
+.add-project-section .input-section {
+    padding-top: 100px;
+}
+
+.add-project-section input {
+    background-color: #c3cad9;
+    font-size: 100%;
+    border-radius: 5px;
+    padding: 3%;
+    width: 100%;
+    height: 30px;
+    margin: 20px 0px 0px 5px;
+    outline: none;
+    border: 0px;
+}
+
+.add-project-section .add-files {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.add-project-section .add-files button {
+    background-color: #c3cad9;
+    height: 100px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.add-project-section .add-files button:hover {
+    background-color: #2696b3;
+    cursor: pointer;
+
+}
+
+.project-list-div {
+    text-align: center;
+    padding: 10% 5%;
+
+}
+
+.add-project-btn {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.add-project-btn button {
+    background-color: #c3cad9;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.add-project-btn button:hover {
+    background-color: #2696b3;
+    cursor: pointer;
+}
+
+.project-div {
+    text-align: left;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2%;
+    width: 250px;
+    height: 150px;
+    margin: 0px 10px 20px;
+    background-color: #2696b3;
 }
